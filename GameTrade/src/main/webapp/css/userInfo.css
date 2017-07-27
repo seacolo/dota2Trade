@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearBoth{
+    content: "";
+    height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+
+.black-bg{
+    background-color: rgb(21,25,29);
+}
+.userInfo-background{
+    background: url("../img/dota2bg.png") no-repeat;
+    height: 700px;
+    position: relative;
+}
+
+.pageOfSelling{
+    display: none;
+    position: absolute;
+    top: 20%;
+    left:20%;
+    width: 60%;
+    z-index: 300;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgb(27, 31, 42);
+    box-shadow:-600px 0 1000px rgba(231, 231, 231, 0.6), /*左边阴影*/
+    600px 0 1000px rgba(231, 231, 231, 0.6), /*右边阴影*/
+    0 -600px 1000px rgba(231, 231, 231, 0.61), /*顶部阴影*/
+    0 600px 1000px rgba(231, 231, 231, 0.45); /*底边阴影*/
+}
+.pageOfSelling tr{
+    height: 50px;
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+}
+.selling-hide-id{
+    display: none;
+    height: 10px;
+    width: 10px;
+    background-color: red;
+}
+.sellCheckbox{
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid #d3d3d3;
+    width:20px;
+    height:20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+}
+.sellPic{
+    width:auto;
+    height: 50px;
+}
+.sellPrice{
+    background-color: #555555;
+    color: whitesmoke;
+    width: 30%;
+    margin: 0 auto;
+}
+.sellName{
+    color: whitesmoke;
+    font-size: 20px;
+}
+.confirmSelling{
+    float: right;
+    margin-right: 15px;
+}
+.quitSelling{
+    float: right;
+}
+
+
+
+.user-contain{
+    position: relative;
+}
+.user-nav{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 24%;
+    height: 500px;
+    background-color: rgba(0,0,0,0.5);
+}
+.user-nav-top{
+    background: url("../img/user-bg.jpg");
+    width: 100%;
+    height: 191px;
+}
+.user-header{
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 20%;
+    height: 30%;
+}
+.userName{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: gray;
+}
+.user-money{
+    color: orange;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.user-tab-nav tr{
+    height: 50px;
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.user-package{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 68%;
+    height: 600px;
+    background-color: rgb(27, 31, 42);
+    z-index: 130;
+}
+.user-information{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 68%;
+    height: 600px;
+    /*background-color: rgb(27, 31, 42);*/
+    z-index: 120;
+}
+.inner-userInfo{
+    position: relative;
+    width: 90%;
+    height: 90%;
+    margin: 5% auto;
+    background-color: rgba(40, 57, 81, 0.38);
+    border-radius: 20px;
+    padding: 15px;
+}
+.edit-userInfo{
+    float: right;
+    width: 50px;
+    height: 50px;
+    color: orange;
+    font-size:30px;
+    cursor: pointer;
+}
+.userInfo-photoPart{
+    padding: 15px;
+}
+.photo-a {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.photo-a input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.photo-a:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+.imgDiv{
+    border: solid 1px #fff691;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(34, 79, 119, 0.33);
+    padding: 5px;
+}
+.imgDiv img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.user-selling{
+     position: absolute;
+     top: 10px;
+     right: 0px;
+     width: 68%;
+     height: 600px;
+     background-color: rgb(27, 31, 42);
+     z-index: 110;
+}
+.user-shoppingCart{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 68%;
+    height: 600px;
+    background-color: rgb(27, 31, 42);
+    z-index: 100;
+}
+.package-btn{
+     height: 10%;
+     width: 100%;
+ }
+ .package-btn button{
+     margin-left: 20px;
+     margin-top: 15px;
+ }
+.package-ornlist{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(35,40,54);
+    padding-left: 30px;
+}
+.package-pageControl{
+    margin-top: 15px;
+    margin-left: 20%;
+}
+.single-ornament{
+    width: 100px;
+    height: 80px;
+    /*background-color: yellow;*/
+    position: relative;
+    border: 1px solid whitesmoke;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.single-ornament-pic{
+    position: absolute;
+    z-index: 200;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+}
+.single-ornament-pic img{
+    width: 100%;
+    height: 100%;
+}
+.single-ornament-id{
+    position: absolute;
+    z-index: 190;
+    top:0;
+    left:0;
+    width: 50%;
+    height: 50%;
+}
+.single-ornament-userOwner{
+    position: absolute;
+    z-index: 180;
+    top:0;
+    left:0;
+    width: 50%;
+    height: 50%;
+}
+.single-ornament-heroOwner{
+    position: absolute;
+    z-index: 170;
+    top:0;
+    left:0;
+    width: 50%;
+    height: 50%;
+}
+.single-ornament-addDate{
+    position: absolute;
+    z-index: 160;
+    top:0;
+    left:0;
+    width: 50%;
+    height: 50%;
+}
+.single-ornament-selling{
+    position: absolute;
+    z-index: 150;
+    top:0;
+    left:0;
+    width: 50%;
+    height: 50%;
+}
+.single-ornament-name{
+    position: absolute;
+    z-index: 140;
+    top:0;
+    left:0;
+    width: 50%;
+    height: 50%;
+}
+.single-ornament-price{
+    position: absolute;
+    z-index: 130;
+    top:0;
+    left:0;
+    width: 50%;
+    height: 50%;
+}
+.single-ornament-price1{
+    position: absolute;
+    z-index: 200;
+    top:80%;
+    left:0;
+    /*width: 80%;*/
+    height: 20%;
+    border-radius: 5px;
+    background-color: rgba(40, 57, 81, 0.5);
+}
+.single-ornament-price1 p{
+    color: orange;
+}

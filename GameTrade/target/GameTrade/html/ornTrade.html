@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>交易界面</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/ornTrade.css">
+</head>
+<body>
+
+    <section class="black-bg">
+        <div class="priceConfirm-page-bg"></div>
+        <div class="priceConfirm-page" id="priceConfirm-page">
+            <!--<p class="fleft">您的余额不足，请充值</p>
+            <button class="btn btn-danger glyphicon glyphicon-remove fright priceConfirm-page-quit" id="priceConfirm-page-quit"></button>
+            <div class="clearBoth"></div>
+            <hr>
+            <div class="priceConfirm-page-tip">
+                <p>您还需充值元</p>
+                <button class="btn btn-success">充值</button>
+            </div>-->
+            <!--<p class="fleft">确认您的购买</p>
+            <button class="btn btn-danger glyphicon glyphicon-remove fright priceConfirm-page-quit" id="priceConfirm-page-quit"></button>
+            <div class="clearBoth"></div>
+            <hr>
+            <div class="priceConfirm-page-tip">
+                <p>购买消费：</p>
+                <p>当前余额：</p>
+                <p>购买后余额</p>
+                <button class="btn btn-success">确认购买</button>
+            </div>-->
+        </div>
+
+        <section class="ornTrade-background container-fluid">
+            <section class="container ornTrade-container">
+                <div class="container ornShow">
+                    <img class="ornShow-pic" src="" alt="">
+                    <p class="ornShow-name">饰品名字</p>
+                    <p class="ornShow-price">参考价：</p>
+                    <p class="ornShow-toatalNum">累计上架：</p>
+                </div>
+                <div class="container ornList">
+                    <table class="table table-hover ornList-table">
+                        <tr class="ornList-title">
+                            <td>商品名称</td><td>卖家</td><td>价格</td><td>操作</td>
+                        </tr>
+                        <!--<tr>
+                            <td><img class="ornList-ornPic fleft" src="../img/axe-face1.png" alt="">
+                                <p class="ornList-ornName fleft">hahaha</p>
+                            </td>
+                            <td>
+                                <p class="ornList-userOwner">aaa</p>
+                            </td>
+                            <td>
+                                <p class="ornList-price">12</p>
+                            </td>
+                            <td><button class="btn btn-success">购买</button></td>
+                        </tr>-->
+
+                    </table>
+                    <div class="ornament-bottom">
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default btn-warning disabled" id="totalPages">共页</button>
+                            <button type="button" class="btn btn-default btn-warning disabled" id="totalRecords">共件饰品</button>
+                            <button type="button" class="btn btn-default btn-warning" id="firstPage">首页</button>
+                            <button type="button" class="btn btn-default btn-warning" id="lastPage">上一页</button>
+                            <button type="button" class="btn btn-default btn-warning disabled" id="currentPage">当前第页</button>
+                            <button type="button" class="btn btn-default btn-warning" id="nextPage">下一页</button>
+                            <button type="button" class="btn btn-default btn-warning" id="finalPage">尾页</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+
+
+<script src="../js/jquery-3.2.0.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/ornTrade.js"></script>
+</body>
+</html>
