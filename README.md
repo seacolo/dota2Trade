@@ -21,4 +21,5 @@
 <img src="https://github.com/seacolo/imgRepo/blob/master/dota2Pic/dota2Trade6.png" width="200px" />
 <img src="https://github.com/seacolo/imgRepo/blob/master/dota2Pic/dota2Trade7.png" width="200px" />
 
+版权所属@章海尉seacolo
 疑问联系：1255173612@qq.com 
