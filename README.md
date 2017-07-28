@@ -13,5 +13,12 @@
 
 ## ppt展示
 1. 已整理
+<img src="https://github.com/seacolo/imgRepo/blob/master/dota2Pic/dota2Trade1.png" width="200px" />
+<img src="https://github.com/seacolo/imgRepo/blob/master/dota2Pic/dota2Trade2.png" width="200px" />
+<img src="https://github.com/seacolo/imgRepo/blob/master/dota2Pic/dota2Trade3.png" width="200px" />
+<img src="https://github.com/seacolo/imgRepo/blob/master/dota2Pic/dota2Trade4.png" width="200px" />
+<img src="https://github.com/seacolo/imgRepo/blob/master/dota2Pic/dota2Trade5.png" width="200px" />
+<img src="https://github.com/seacolo/imgRepo/blob/master/dota2Pic/dota2Trade6.png" width="200px" />
+<img src="https://github.com/seacolo/imgRepo/blob/master/dota2Pic/dota2Trade7.png" width="200px" />
 
 疑问联系：1255173612@qq.com 
